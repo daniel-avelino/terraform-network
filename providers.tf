@@ -8,8 +8,6 @@ terraform {
 }
 
 provider "aws" {
-  profile = "default"
-
   default_tags {
     tags = {
       Environment = "Test"
